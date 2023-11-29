@@ -1,0 +1,17 @@
+[type=submit]:not(:disabled) {
+  background-color: #FF5544;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+		transition: all ease .5s;
+}
+
+[type=submit]:not(:disabled):hover {
+	background-color: #FF5544A6;
+}
+
+#link-zap a.elementor-social-icon {
+	box-shadow: 0 0 5px;
+}
